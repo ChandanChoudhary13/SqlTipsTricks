@@ -8,9 +8,9 @@
 DECLARE @tableName NVARCHAR(MAX), @schemaName NVARCHAR(MAX), @className NVARCHAR(MAX)
  
 --------------- Input arguments [Start] ---------------
-SET @schemaName = 'Vendor'       --- TODO : Change it to your Schema Name
-SET @tableName = 'Products'	  --- TODO : Change it to your Table Name
-SET @className = 'VendorProducts' --- TODO : Change it to your Desired Class | Model | DTO Name
+SET @schemaName = 'dbo'       --- TODO : Change it to your Schema Name
+SET @tableName = 'Students'	  --- TODO : Change it to your Table Name
+SET @className = 'StudentsDTO' --- TODO : Change it to your Desired Class | Model | DTO Name
 --------------- Input arguments [End]  -----------
 
 	DECLARE tableColumns CURSOR LOCAL FOR
